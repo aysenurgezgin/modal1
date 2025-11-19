@@ -33,3 +33,61 @@ button {
     margin: 5px;
     transition-duration: .2s;
 }
+
+button:hover {
+    opacity: .9;
+}
+
+.main-modal {
+    background-color: rgb(red, green, blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-modal-none {
+    display: none;
+}
+
+.modal {
+    background-color: white;
+    padding: 10px 15px;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid  rgba(224, 220, 220, .5) ;
+}
+
+.modal-header-title {
+    color: tomato;
+    font-weight: normal;
+}
+
+.btn-close-modal {
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.btn-close-modal:hover {
+    color: gray;
+}
+
+.modal-footer {
+    text-align: end;
+    border-top: 2px solid rgba(224, 220, 220, .5);
+    padding-top: 5px;
+}
